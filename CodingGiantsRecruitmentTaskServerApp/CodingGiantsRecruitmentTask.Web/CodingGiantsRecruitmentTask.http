@@ -1,0 +1,28 @@
+@CodingGiantsRecruitmentTask_HostAddress = http://localhost:5215
+
+### GET historia wiadomoœci
+GET {{CodingGiantsRecruitmentTask_HostAddress}}/chat/history
+Accept: application/json
+
+###
+
+### GET dostêpne typy oceniania wiadomoœci
+GET {{CodingGiantsRecruitmentTask_HostAddress}}/chat/messageRatingTypes
+Accept: application/json
+
+###
+
+### POST ocena wiadomoœci
+POST {{CodingGiantsRecruitmentTask_HostAddress}}/chat/rate
+Content-Type: application/json
+
+{
+  "messageId": "00000000-0000-0000-0000-000000000000",
+  "ratingTypeId": "00000000-0000-0000-0000-000000000000"
+}
+
+###
+
+### DELETE anulowanie generowania wiadomoœci
+DELETE {{CodingGiantsRecruitmentTask_HostAddress}}/chat/cancelGenerating/00000000-0000-0000-0000-000000000000
+Accept: application/json

@@ -1,0 +1,28 @@
+mat-card.bg-light {
+  border-radius: 10px 10px 10px 0;
+  max-width: 70%;
+}
+
+mat-card.bg-primary {
+  border-radius: 10px 10px 0 10px;
+  max-width: 70%;
+}
+
+button[mat-icon-button] {
+  color: #555;
+  transition: color 0.2s;
+}
+
+button[mat-icon-button]:hover {
+  color: #1976d2;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.chat-bubble {
+  max-width: 70% !important;
+  width: fit-content;
+  word-break: break-word;
+}

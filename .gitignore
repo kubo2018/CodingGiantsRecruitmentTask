@@ -1,0 +1,81 @@
+#################################
+### .NET (.csproj) CONFIGURATION
+#################################
+
+# Build output
+**/[Bb]in/
+**/[Oo]bj/
+**/artifacts/
+**/publish/
+**/Generated\ Files/
+
+# User files
+*.user
+*.suo
+*.rsuser
+
+# Visual Studio
+.vs/
+Generated_Code/
+
+# Logs
+**/logs/
+*.log
+
+# Test Results
+**/TestResults/
+
+# Coverage
+coverage*.json
+coverage*.xml
+
+# IDE Tools
+_ReSharper*/
+*.DotSettings.user
+
+#################################
+### NODE / ANGULAR CONFIGURATION
+#################################
+
+# Node / Angular
+**/node_modules/
+**/dist/
+**/.angular/cache/
+**/coverage/
+**/tmp/
+**/out-tsc/
+**/bazel-out/
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Build artifacts
+*.tgz
+
+#################################
+### GLOBAL SETTINGS
+#################################
+
+# IDE files
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Optional backups and lock files
+*.bak
+*.swp
+*.lock
+
+#################################
+# END OF FILE
+#################################
